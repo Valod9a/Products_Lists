@@ -29,7 +29,7 @@ public class Main {
         int type = scanner.nextInt();
         scanner.close();
 
-        if ((type < 1) | (5 > type)) {
+        if (5 < type || type < 1) {
             System.out.println("Wrong number of product list.");
         }
 
